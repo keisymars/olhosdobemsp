@@ -63,15 +63,15 @@
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2 data-aos="fade-up">Enxergue a Solidariedade <br>Bem vindo(a) ao programa<br>Olhos do bem</h2>
-          <p data-aos="fade-up" data-aos-delay="100">O principal programa social de testes visuais gratuitos no Brasil!</p>
+          <h2>Enxergue a Solidariedade <br>Bem vindo(a) ao programa<br>Olhos do bem</h2>
+          <p>O principal programa social de testes visuais gratuitos no Brasil!</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://bit.ly/olhosdobem" class="btn-book-a-table" target="_blank">Agendar consulta</a>
+            <a href="https://bit.ly/olhosdobem" class="btn-book-a-table" target="_blank" title="botão para agendar consulta">Agendar consulta</a>
             <a href="https://www.youtube.com/embed/WUmiupbCfWk" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assitir vídeo </span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/hero-img.webp" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/aboutt.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/aboutt.webp) ;" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
               <h4>Olhos do bem</h4>
               <p>Testes visuais gratuitos</p>
@@ -549,7 +549,45 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
                       <div class="testimonial-content">
                         <p>
                           <div class="position-relative mt-4">
-                            <iframe class="videos"  width="310" height="380" src="https://www.youtube.com/embed/WUmiupbCfWk" title="teste de visão gratuito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; showinfo=0" allowfullscreen></iframe>
+                            <!-- Reference: https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse -->
+<iframe
+srcdoc="
+    <style>
+        body, .full {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            object-fit: cover;
+        }
+    </style>
+    <a
+        href='https://www.youtube.com/embed/WUmiupbCfWk'
+        class='full'
+    >
+        <img
+            src='assets/img/olhosdobem.webp'
+            class='full'
+        />
+        <svg
+            version='1.1'
+            viewBox='0 0 68 48'
+            width='68px'
+            style='position: relative;'
+        >
+            <path d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path>
+            <path d='M 45,24 27,14 27,34' fill='#fff'></path>
+        </svg>
+    </a>
+"
+style="width: 310px; height: 380px; aspect-ratio: 16/9;"
+frameborder="0"
+></iframe>
+                         
+                         
+                            <!-- <iframe class="videos"  width="310" height="380" src="https://www.youtube.com/embed/WUmiupbCfWk" title="teste de visão gratuito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; showinfo=0" allowfullscreen></iframe> -->
                           </div>
 
                         </p>
@@ -571,7 +609,44 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
                     <div class="col-lg-6">
                       <div class="testimonial-content">
                         <p>
-                          <iframe class="videos"  width="310" height="380" src="https://www.youtube.com/embed/8iv9Om1JyGY" title="depoimento 923" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                          <iframe
+srcdoc="
+    <style>
+        body, .full {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            object-fit: cover;
+        }
+    </style>
+    <a
+        href='https://www.youtube.com/embed/8iv9Om1JyGY'
+        class='full'
+    >
+        <img
+            src='assets/img/eli.webp'
+            class='full'
+        />
+        <svg
+            version='1.1'
+            viewBox='0 0 68 48'
+            width='68px'
+            style='position: relative;'
+        >
+            <path d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path>
+            <path d='M 45,24 27,14 27,34' fill='#fff'></path>
+        </svg>
+    </a>
+"
+style="width: 310px; height: 380px; aspect-ratio: 16/9;"
+frameborder="0"
+></iframe>
+                          <!-- <iframe class="videos"  width="310" height="380" src="https://www.youtube.com/embed/8iv9Om1JyGY" title="depoimento 923" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
                         </p>
                       
@@ -592,7 +667,44 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
                     <div class="col-lg-6">
                       <div class="testimonial-content">
                         <p>
-                          <iframe class="videos" width="310" height="380" src="https://www.youtube.com/embed/s63fQ1w_a9M" title="depoimento  533" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                          <iframe
+                          srcdoc="
+                              <style>
+                                  body, .full {
+                                      width: 100%;
+                                      height: 100%;
+                                      margin: 0;
+                                      position: absolute;
+                                      display: flex;
+                                      justify-content: center;
+                                      object-fit: cover;
+                                  }
+                              </style>
+                              <a
+                                  href='https://www.youtube.com/embed/s63fQ1w_a9M'
+                                  class='full'
+                              >
+                                  <img
+                                      src='assets/img/stu.webp'
+                                      class='full'
+                                  />
+                                  <svg
+                                      version='1.1'
+                                      viewBox='0 0 68 48'
+                                      width='68px'
+                                      style='position: relative;'
+                                  >
+                                      <path d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path>
+                                      <path d='M 45,24 27,14 27,34' fill='#fff'></path>
+                                  </svg>
+                              </a>
+                          "
+                          style="width: 310px; height: 380px; aspect-ratio: 16/9;"
+                          frameborder="0"
+                          ></iframe>
+                          <!-- <iframe class="videos" width="310" height="380" src="https://www.youtube.com/embed/s63fQ1w_a9M" title="depoimento  533" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                         </p>
                         
                         <div class="stars">
@@ -662,9 +774,9 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Siga-nos</h4>
           <div class="social-links d-flex">
-            <a href="https://bit.ly/olhosdobem" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://bit.ly/olhosdobem" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/projeto.olhosdobem/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://bit.ly/olhosdobem" title="número de whatsapp do olhos do bem" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://bit.ly/olhosdobem" title="página no facebook da olhos do bem" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/projeto.olhosdobem/" title="perfil do instagram do olhos do bem" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
 
@@ -673,7 +785,7 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
 
     <div class="container">
       <div class="copyright">
-        &#169  <script> document.write(new Date().getFullYear());</script>
+        &#169  <script defer> document.write(new Date().getFullYear());</script>
         OLHOS DO BEM <br> TODOS OS DIREITOS RESERVADOS
 
       </div>
@@ -688,22 +800,21 @@ Com o Olhos do Bem, priorizamos o cuidado com a saúde ocular e o compromisso so
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 
-  <a href="https://bit.ly/olhosdobem" target="_blank">
+  <a href="https://bit.ly/olhosdobem" title="número de whatsapp da olhos do bem" target="_blank">
     <div class="zapbotaofloat">
         <div class="tooltip">
             <p>👋 fale conosco</p>
           </div>
-        <img src="assets/img/whatsapp-logo.png" alt="fale conosco pelo whatsapp" title="fale conosco pelo whatsapp" width="60px">
+        <img src="assets/img/whatsapp-logo (1).webp" alt="fale conosco pelo whatsapp" title="fale conosco pelo whatsapp" width="60px">
     </a>
 
 </body>
